@@ -1,0 +1,14 @@
+[  
+   {  
+      "version":"v7",
+      "status":"stable",
+      "type":"AOSP",
+      "deconfig":"rosy_deconfig"
+   },
+   {  
+      "version":"v7",
+      "status":"stable",
+      "type":"MIUI",
+      "deconfig":"rosy-miui_deconfig"
+   }
+]

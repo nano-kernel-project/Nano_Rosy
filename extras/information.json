@@ -1,0 +1,9 @@
+{  
+   "base_url":"https://master.dl.sourceforge.net/project/nano-releases/",
+   "toolchain_url":"https://github.com/mscalindt/aarch64-linux-android-4.9",
+   "anykernel_url":"https://github.com/shreejoy/AnyKernel2",
+   "ci_base_path":"/home/rof/src/github.com/shreejoy/Nano_rosy/",
+   "channel_id":"-1001373366892",
+   "group_id":"-1001242182605",
+   "changelogs_url":"https://github.com/nano-kernel-project/Nano_Extras/blob/master/Nano-changelogs.md"
+}
