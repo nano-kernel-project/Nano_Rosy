@@ -266,11 +266,6 @@ dtb-$(CONFIG_ARCH_MSM8953) += msm8953-sim.dtb \
 	msm8953-pmi8940-ext-codec-mtp.dtb \
 	msm8953-pmi8937-ext-codec-mtp.dtb
 
-ifeq ($(TYPE),MIUI)
-dtb-$(CONFIG_ARCH_SDM450) += sdm450-pmi8940-qrd-miui.dtb
-endif
-
-ifeq ($(TYPE),AOSP)
 dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
 	sdm450-cdp.dtb \
 	sdm450-mtp.dtb \
@@ -281,7 +276,6 @@ dtb-$(CONFIG_ARCH_SDM450) += sdm450-rcm.dtb \
 	sda450-cdp.dtb \
 	sda450-mtp.dtb \
 	sdm450-qrd_rosy.dtb
-endif
 
 dtb-$(CONFIG_ARCH_MDM9607) += mdm9607-rumi.dtb \
 	mdm9607-cdp.dtb \
